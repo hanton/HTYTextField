@@ -17,20 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3x2-eE-E4O" customClass="HTYTextField" customModule="HTYTextFieldDemo" customModuleProvider="target">
-                                <rect key="frame" x="175.5" y="108" width="250" height="30"/>
+                                <rect key="frame" x="150.5" y="108" width="300" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="OlA-Mx-7AJ"/>
-                                    <constraint firstAttribute="width" constant="250" id="v1W-cj-jwE"/>
+                                    <constraint firstAttribute="width" constant="300" id="v1W-cj-jwE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fC6-lg-eCL" customClass="HTYTextField" customModule="HTYTextFieldDemo" customModuleProvider="target">
-                                <rect key="frame" x="175.5" y="169" width="250" height="30"/>
+                                <rect key="frame" x="150.5" y="169" width="300" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="TJl-Gd-B40"/>
+                                    <constraint firstAttribute="width" constant="300" id="TJl-Gd-B40"/>
                                     <constraint firstAttribute="height" constant="30" id="YKt-dp-HNc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
