@@ -14,6 +14,7 @@ Installation
 * Add the dependency to your Podfile:
 ```ruby
 use_frameworks!
+
 pod 'HTYTextField'
 ...
 ```
@@ -30,15 +31,11 @@ Usage
 ```swift
 import HTYTextField
 
-  @IBOutlet weak var emailTextField: HTYTextField!
-  @IBOutlet weak var passwordTextField: HTYTextField!
+@IBOutlet weak var emailTextField: HTYTextField!
+@IBOutlet weak var passwordTextField: HTYTextField!
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
-
-    emailTextField.rightPlaceholder = "xxx@xxx.xx"
-    passwordTextField.rightPlaceholder = "6~12 digits"
-  }
+emailTextField.rightPlaceholder = "xxx@xxx.xx"
+passwordTextField.rightPlaceholder = "6~12 digits"
 ```
 
 Requirements
