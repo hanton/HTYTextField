@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4063A58C1BE9010C002055E0 /* HTYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4063A58B1BE9010C002055E0 /* HTYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4063A59A1BE9013C002055E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063A5991BE9013C002055E0 /* AppDelegate.swift */; };
+		4063A59C1BE9013C002055E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063A59B1BE9013C002055E0 /* ViewController.swift */; };
+		4063A59F1BE9013C002055E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4063A59D1BE9013C002055E0 /* Main.storyboard */; };
+		4063A5A11BE9013C002055E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4063A5A01BE9013C002055E0 /* Assets.xcassets */; };
+		4063A5A41BE9013C002055E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4063A5A21BE9013C002055E0 /* LaunchScreen.storyboard */; };
+		4063A5AA1BE90167002055E0 /* HTYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063A5A91BE90167002055E0 /* HTYTextField.swift */; };
+		4063A5AB1BE906BC002055E0 /* HTYTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4063A5881BE9010C002055E0 /* HTYTextField.framework */; };
+		4063A5AC1BE906BC002055E0 /* HTYTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4063A5881BE9010C002055E0 /* HTYTextField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4063A5AD1BE906BC002055E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4063A57F1BE9010C002055E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4063A5871BE9010C002055E0;
+			remoteInfo = HTYTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4063A5AF1BE906BC002055E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4063A5AC1BE906BC002055E0 /* HTYTextField.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4063A5881BE9010C002055E0 /* HTYTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTYTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4063A58B1BE9010C002055E0 /* HTYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTYTextField.h; sourceTree = "<group>"; };
+		4063A58D1BE9010C002055E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4063A5971BE9013C002055E0 /* HTYTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTYTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4063A5991BE9013C002055E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4063A59B1BE9013C002055E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4063A59E1BE9013C002055E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4063A5A01BE9013C002055E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4063A5A31BE9013C002055E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4063A5A51BE9013C002055E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4063A5A91BE90167002055E0 /* HTYTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTYTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4063A5841BE9010C002055E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4063A5941BE9013C002055E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4063A5AB1BE906BC002055E0 /* HTYTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4063A57E1BE9010C002055E0 = {
+			isa = PBXGroup;
+			children = (
+				4063A5981BE9013C002055E0 /* HTYTextFieldDemo */,
+				4063A58A1BE9010C002055E0 /* HTYTextField */,
+				4063A5891BE9010C002055E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4063A5891BE9010C002055E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4063A5881BE9010C002055E0 /* HTYTextField.framework */,
+				4063A5971BE9013C002055E0 /* HTYTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4063A58A1BE9010C002055E0 /* HTYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4063A58B1BE9010C002055E0 /* HTYTextField.h */,
+				4063A5A91BE90167002055E0 /* HTYTextField.swift */,
+				4063A58D1BE9010C002055E0 /* Info.plist */,
+			);
+			path = HTYTextField;
+			sourceTree = "<group>";
+		};
+		4063A5981BE9013C002055E0 /* HTYTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4063A5991BE9013C002055E0 /* AppDelegate.swift */,
+				4063A59B1BE9013C002055E0 /* ViewController.swift */,
+				4063A59D1BE9013C002055E0 /* Main.storyboard */,
+				4063A5A01BE9013C002055E0 /* Assets.xcassets */,
+				4063A5A21BE9013C002055E0 /* LaunchScreen.storyboard */,
+				4063A5A51BE9013C002055E0 /* Info.plist */,
+			);
+			path = HTYTextFieldDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4063A5851BE9010C002055E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4063A58C1BE9010C002055E0 /* HTYTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4063A5871BE9010C002055E0 /* HTYTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4063A5901BE9010C002055E0 /* Build configuration list for PBXNativeTarget "HTYTextField" */;
+			buildPhases = (
+				4063A5831BE9010C002055E0 /* Sources */,
+				4063A5841BE9010C002055E0 /* Frameworks */,
+				4063A5851BE9010C002055E0 /* Headers */,
+				4063A5861BE9010C002055E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTYTextField;
+			productName = HTYTextField;
+			productReference = 4063A5881BE9010C002055E0 /* HTYTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4063A5961BE9013C002055E0 /* HTYTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4063A5A61BE9013C002055E0 /* Build configuration list for PBXNativeTarget "HTYTextFieldDemo" */;
+			buildPhases = (
+				4063A5931BE9013C002055E0 /* Sources */,
+				4063A5941BE9013C002055E0 /* Frameworks */,
+				4063A5951BE9013C002055E0 /* Resources */,
+				4063A5AF1BE906BC002055E0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4063A5AE1BE906BC002055E0 /* PBXTargetDependency */,
+			);
+			name = HTYTextFieldDemo;
+			productName = HTYTextFieldDemo;
+			productReference = 4063A5971BE9013C002055E0 /* HTYTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4063A57F1BE9010C002055E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Hanton;
+				TargetAttributes = {
+					4063A5871BE9010C002055E0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4063A5961BE9013C002055E0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4063A5821BE9010C002055E0 /* Build configuration list for PBXProject "HTYTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4063A57E1BE9010C002055E0;
+			productRefGroup = 4063A5891BE9010C002055E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4063A5961BE9013C002055E0 /* HTYTextFieldDemo */,
+				4063A5871BE9010C002055E0 /* HTYTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4063A5861BE9010C002055E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4063A5951BE9013C002055E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4063A5A41BE9013C002055E0 /* LaunchScreen.storyboard in Resources */,
+				4063A5A11BE9013C002055E0 /* Assets.xcassets in Resources */,
+				4063A59F1BE9013C002055E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4063A5831BE9010C002055E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4063A5AA1BE90167002055E0 /* HTYTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4063A5931BE9013C002055E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4063A59C1BE9013C002055E0 /* ViewController.swift in Sources */,
+				4063A59A1BE9013C002055E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4063A5AE1BE906BC002055E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4063A5871BE9010C002055E0 /* HTYTextField */;
+			targetProxy = 4063A5AD1BE906BC002055E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4063A59D1BE9013C002055E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4063A59E1BE9013C002055E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4063A5A21BE9013C002055E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4063A5A31BE9013C002055E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4063A58E1BE9010C002055E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4063A58F1BE9010C002055E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4063A5911BE9010C002055E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HTYTextField/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanton.HTYTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4063A5921BE9010C002055E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HTYTextField/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanton.HTYTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4063A5A71BE9013C002055E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HTYTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanton.HTYTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4063A5A81BE9013C002055E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HTYTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanton.HTYTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4063A5821BE9010C002055E0 /* Build configuration list for PBXProject "HTYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4063A58E1BE9010C002055E0 /* Debug */,
+				4063A58F1BE9010C002055E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4063A5901BE9010C002055E0 /* Build configuration list for PBXNativeTarget "HTYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4063A5911BE9010C002055E0 /* Debug */,
+				4063A5921BE9010C002055E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4063A5A61BE9013C002055E0 /* Build configuration list for PBXNativeTarget "HTYTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4063A5A71BE9013C002055E0 /* Debug */,
+				4063A5A81BE9013C002055E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4063A57F1BE9010C002055E0 /* Project object */;
+}

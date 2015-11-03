@@ -8,9 +8,9 @@
 
 import UIKit
 
-class HTYTextField: UITextField {
+public class HTYTextField: UITextField {
   
-  var rightPlaceholder: String = "" {
+  public var rightPlaceholder: String = "" {
     didSet {
       rightPlaceholderLabel.text = rightPlaceholder
     }
@@ -29,7 +29,7 @@ class HTYTextField: UITextField {
     }
   }
   
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     
     fakePlaceholderLabel = UILabel(frame: placeholderRectForBounds(bounds))
@@ -47,30 +47,19 @@ class HTYTextField: UITextField {
     addSubview(rightPlaceholderLabel)
   }
   
+  // MARK: - UITextField Observing
   
-  override func awakeFromNib() {
-    super.awakeFromNib()
-    
-    NSNotificationCenter.defaultCenter().addObserver(self,
-      selector: Selector("didBeginEditing:"),
-      name: UITextFieldTextDidBeginEditingNotification,
-      object: nil)
-    NSNotificationCenter.defaultCenter().addObserver(self,
-      selector: Selector("didEndEditing:"),
-      name: UITextFieldTextDidEndEditingNotification,
-      object: nil)
-  }
+  override public func willMoveToSuperview(newSuperview: UIView!) {
+    if newSuperview != nil {
+      NSNotificationCenter.defaultCenter().addObserver(self, selector: "didBeginEditing:", name:UITextFieldTextDidBeginEditingNotification, object: self)
+      
+      NSNotificationCenter.defaultCenter().addObserver(self, selector: "didEndEditing:", name:UITextFieldTextDidEndEditingNotification, object: self)
+    } else {
+      NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+  } 
   
-  deinit {
-    NSNotificationCenter.defaultCenter().removeObserver(self,
-      name: UITextFieldTextDidBeginEditingNotification,
-      object: nil)
-    NSNotificationCenter.defaultCenter().removeObserver(self,
-      name: UITextFieldTextDidEndEditingNotification,
-      object: nil)
-  }
-  
-  func didBeginEditing(notification: NSNotification) {
+  public func didBeginEditing(notification: NSNotification) {
     placeholder = nil
     
     if notification.object === self {      
@@ -87,7 +76,7 @@ class HTYTextField: UITextField {
     }
   }
   
-  func didEndEditing(notification: NSNotification) {
+  public func didEndEditing(notification: NSNotification) {
     if notification.object === self {
       UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 0, options: .CurveEaseIn, animations: { () -> Void in
         if self.text!.isEmpty {
