@@ -439,6 +439,7 @@
 				4063A5921BE9010C002055E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4063A5A61BE9013C002055E0 /* Build configuration list for PBXNativeTarget "HTYTextFieldDemo" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +448,7 @@
 				4063A5A81BE9013C002055E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
