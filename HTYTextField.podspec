@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "A UITextField with bouncy placeholder."
 
   s.homepage     = "https://github.com/hanton/HTYTextField"
-  s.screenshots  = "https://github.com/hanton/HTYTextField/blob/master/screenshot/HTYTextField.gif"
+#  s.screenshots  = "https://github.com/hanton/HTYTextField/blob/master/screenshot/HTYTextField.gif"
 
   s.license      = "MIT"
 
