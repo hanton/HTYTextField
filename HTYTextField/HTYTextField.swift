@@ -51,9 +51,9 @@ public class HTYTextField: UITextField {
   
   override public func willMoveToSuperview(newSuperview: UIView!) {
     if newSuperview != nil {
-      NSNotificationCenter.defaultCenter().addObserver(self, selector: "didBeginEditing:", name:UITextFieldTextDidBeginEditingNotification, object: self)
+      NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(HTYTextField.didBeginEditing(_:)), name:UITextFieldTextDidBeginEditingNotification, object: self)
       
-      NSNotificationCenter.defaultCenter().addObserver(self, selector: "didEndEditing:", name:UITextFieldTextDidEndEditingNotification, object: self)
+      NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(HTYTextField.didEndEditing(_:)), name:UITextFieldTextDidEndEditingNotification, object: self)
     } else {
       NSNotificationCenter.defaultCenter().removeObserver(self)
     }
