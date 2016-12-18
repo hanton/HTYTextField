@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     passwordTextField.rightPlaceholder = "6-12 digits"
   }
 
-  override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     view.endEditing(true)
   }
   
