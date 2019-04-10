@@ -21,8 +21,8 @@ open class HTYTextField: UITextField {
     fileprivate var translateX: CGFloat!
         {
         get {
-            let attributes = [NSFontAttributeName: font!]
-            let rightPlaceholderTextSize = rightPlaceholderLabel.text!.size(attributes: attributes)
+            let attributes = [NSAttributedString.Key.font: font!]
+            let rightPlaceholderTextSize = rightPlaceholderLabel.text!.size(withAttributes: attributes)
             let rightPlaceholderTextWidth = rightPlaceholderTextSize.width
             let translateX = textRect(forBounds: bounds).width - rightPlaceholderTextWidth
             return translateX
@@ -51,15 +51,15 @@ open class HTYTextField: UITextField {
     
     override open func willMove(toSuperview newSuperview: UIView!) {
         if newSuperview != nil {
-            NotificationCenter.default.addObserver(self, selector: #selector(HTYTextField.didBeginEditing(_:)), name:NSNotification.Name.UITextFieldTextDidBeginEditing, object: self)
+            NotificationCenter.default.addObserver(self, selector: #selector(HTYTextField.didBeginEditing(_:)), name:UITextField.textDidBeginEditingNotification, object: self)
             
-            NotificationCenter.default.addObserver(self, selector: #selector(HTYTextField.didEndEditing(_:)), name:NSNotification.Name.UITextFieldTextDidEndEditing, object: self)
+            NotificationCenter.default.addObserver(self, selector: #selector(HTYTextField.didEndEditing(_:)), name:UITextField.textDidEndEditingNotification, object: self)
         } else {
             NotificationCenter.default.removeObserver(self)
         }
     }
     
-    open func didBeginEditing(_ notification: Notification) {
+    @objc open func didBeginEditing(_ notification: Notification) {
         placeholder = nil
         
         if notification.object is HTYTextField{
@@ -77,7 +77,7 @@ open class HTYTextField: UITextField {
         }
     }
     
-    open func didEndEditing(_ notification: Notification) {
+    @objc open func didEndEditing(_ notification: Notification) {
         if notification.object is HTYTextField{
             if notification.object as! HTYTextField === self{
                 UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 0, options: .curveEaseIn, animations: { () -> Void in
